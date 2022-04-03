@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 
+// static generation only runs on the server-side and wont be included in the JS bundle for the browser
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
   return {

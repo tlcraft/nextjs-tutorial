@@ -21,7 +21,7 @@ export default function Home({allPostsData}) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h1 className="text-3xl font-bold underline">
+      <h1 className="text-3xl font-bold underline text-zinc-300">
         Hello from Tailwind!
       </h1>
       <section className={utilStyles.headingMd}>

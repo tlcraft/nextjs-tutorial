@@ -21,6 +21,9 @@ export default function Home({allPostsData}) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <h1 className="text-3xl font-bold underline">
+        Hello from Tailwind!
+      </h1>
       <section className={utilStyles.headingMd}>
         <p>I'm a software engineer learning more about Next.js!</p>
         <p>
